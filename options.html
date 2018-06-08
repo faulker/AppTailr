@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>Options for AppTailr</title>
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="css/options.css">
+</head>
+<body>
+<div class="container" id="options">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="page-header">
+                <h2>AppTailr Options</h2>
+                <strong class="text-info"><i class="fas fa-exclamation-circle"></i> Select the extensions you want to be able to quickly enable/disable via AppTailr.</strong>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <div id="apps"></div>
+        </div>
+        <div class="col-sm-4">
+            <!--<div data-spy="affix">-->
+            <ul class="list-group">
+                <li class="list-group-item">
+                    Created by <strong><a href="mailto:winter@faulk.me"><strong>Winter Faulk</strong></a>
+                    <hr>
+                    <a href="http://faulk.me">faulk.me</a> |
+                    <a href="https://github.com/faulker">github.com/faulker</a>
+                </strong>
+                </li>
+                <li class="list-group-item" id="version">Version:</li>
+            </ul>
+            <hr>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <label>Row Size: ( <strong><span id="current-row-size"></span></strong> )</label>
+                    <br>
+                    <input id="row-size" data-slider-id='ex1Slider' type="text" data-slider-min="3" data-slider-max="12" data-slider-step="1">
+                    <hr>
+                    Selection Count: <strong id="select-count"></strong>
+                </li>
+                <li class="list-group-item text-center">
+                    <button type="button" class="btn btn-warning" id="clear-selected">Clear Selections</button>
+                </li>
+            </ul>
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/popper.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/bootstrap-slider.min.js" type="text/javascript"></script>
+<script src="js/options.js" type="text/javascript"></script>
+</html>

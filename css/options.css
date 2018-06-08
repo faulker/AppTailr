@@ -1,0 +1,38 @@
+body
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.selected,
+.app-item:hover
+{
+    background-color: #ddd;
+    border-right: 8px solid #666;
+}
+
+.app-item
+{
+    cursor: pointer;
+    padding: 2px 5px;
+}
+
+.enabled
+{
+    border-left: 8px solid #C3E0C3;
+}
+
+.disabled
+{
+    border-left: 8px solid #FFB6B4;
+}
+
+.disabled img
+{
+    -webkit-filter: grayscale( 80% );
+}
+
+.hide {
+    visibility: hidden !important;
+}
+

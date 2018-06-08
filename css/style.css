@@ -1,0 +1,29 @@
+html
+{
+    overflow: hidden;
+}
+
+body
+{
+    width: 100px;
+    height: 44px;
+    min-width: 100px;
+    min-height: 44px;
+    overflow: hidden;
+}
+
+#apps button
+{
+    margin: 3px;
+}
+
+#apps .app-btn
+{
+    background-color: #C3E0C3;
+}
+
+#apps .active
+{
+    -webkit-filter: grayscale(90%);
+}
+
